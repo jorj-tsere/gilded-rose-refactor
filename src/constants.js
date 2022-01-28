@@ -1,0 +1,9 @@
+const MINIMUM_QUALITY = 0;
+const MAXIMUM_QUALITY = 50;
+const LEGENDARY_QUALITY = 80;
+
+module.exports = {
+    MINIMUM_QUALITY,
+    MAXIMUM_QUALITY,
+    LEGENDARY_QUALITY
+}
