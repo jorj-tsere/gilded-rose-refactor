@@ -16,7 +16,6 @@ class AgedBrie extends Item {
         this.sellIn -= 1;
         this.quality = Math.min(MAXIMUM_QUALITY, this.calculateQuality());
     }
-
 }
 
 

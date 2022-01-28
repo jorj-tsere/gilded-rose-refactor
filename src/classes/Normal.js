@@ -10,6 +10,10 @@ class Normal extends Item {
         this.sellIn -= 1;
         this.quality = Math.max(MINIMUM_QUALITY, this.calculateQuality());
     }
+
+    isValuebleFor() {
+        return true;
+    }
 }
 
 module.exports = Normal;
